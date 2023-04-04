@@ -2,9 +2,6 @@
     background-color: #fff;
     display: flex;
     padding-bottom: 5%;
-    /* width: 70%; */
-    /* padding-left: 10%; */
-    /* padding-right: 10%; */
 }
 
 .lft{
@@ -86,4 +83,43 @@ input{
 
 input:focus{
     outline: none;
+}
+
+@media only screen and (max-width:700px) {
+    .footer-maindiv{
+        flex-direction: column-reverse;
+    }
+
+    .lft, .rht{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .lft img{
+        width: 29vw;
+    }
+
+    input{
+        padding-left: 5%;
+        width: 95%;
+    }
+
+    .rht-l1{
+        margin-top: 5%;
+    }
+
+    form p{
+        margin-top: 5%;
+    }
+
+    form button {
+        width: 36vw;
+        height: 6.5vh;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .lft a{
+        margin-right: 5%;
+    }
 }

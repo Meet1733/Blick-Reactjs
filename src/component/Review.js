@@ -7,7 +7,7 @@ function Review() {
 
             <div className="up">
                 <p className="ul1">REVIEWS</p>
-                <p className="ul2">What do they say?</p>
+                <h2 className="ul2">What do they say?</h2>
             </div>
 
             <div className="down">

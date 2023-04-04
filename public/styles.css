@@ -1,6 +1,6 @@
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 37%, rgba(96,29,90,1) 72%, rgba(140,35,96,1) 100%);
+    background: rgb(21,7,22);
+    background: linear-gradient(90deg, rgba(21,7,22,1) 0%, rgba(52,16,52,1) 33%, rgba(91,28,86,1) 61%);
     font-family: 'Rubik', sans-serif;
 }
 

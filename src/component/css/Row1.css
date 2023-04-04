@@ -24,6 +24,7 @@
     color: #fff;
     font-size: 18px;
     margin-top: 0px;
+    width: 70%;
 }
 
 .row-left{
@@ -61,4 +62,36 @@
     width: 100%;
 }
 
+@media only screen and (max-width:700px) {
+    .row1{
+        display: block;
+        margin-left: 5%;
+    }
 
+    .row-above{
+        margin-top: 10%;
+    }
+
+    .row-left{
+        width: 100%;
+    }
+
+    .row-left h1{
+        font-size: 64px;
+    }
+
+    .row-left button{
+        width: 135px;
+        height: 44px;
+        margin-top: 10%;
+    }
+
+    .row-small{
+        margin-top: 5%;
+    }
+
+    .phone{
+        height: 50vh;
+        margin-top: 10%;
+    }
+}

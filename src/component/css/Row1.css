@@ -40,7 +40,7 @@
     height: 701px;    
 }
 
-button{
+.row-left button{
     width: 195px;
     height: 50px;
     border-radius: 26px;
@@ -53,7 +53,7 @@ button{
     margin-top: 5%;
 }
 
-button:hover {
+.row-left button:hover {
     background-color: rgb(93, 27, 166);
 }
 

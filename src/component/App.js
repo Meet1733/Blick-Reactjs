@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Row1 from "./Row1";
 import Row2 from "./Row2";
 import Row3 from "./Review";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
 
       <div className="third-page">
         <Row3/>
+      </div>
+
+      <div className="footer">
+        <Footer/>
       </div>
     </div>
   );

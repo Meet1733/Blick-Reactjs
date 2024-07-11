@@ -1,19 +1,23 @@
-import React , {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./css/Row2.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import p1 from "../assets/p1.avif";
+import p2 from "../assets/p2.avif";
+import p3 from "../assets/p3.avif";
+
 
 function Row2() {
 
     useEffect(() => {
-        Aos.init({duration: 2000})
-      }, [])
+        Aos.init({ duration: 2000 })
+    }, [])
 
     return (
         <div className="row2">
             <div className="p1">
                 <div className="p1-img" data-aos="fade-zoom-in">
-                    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=478,fit=crop/YyvylKbrrJt35wVE/mockup_2-mp8N3033Rphb7DNZ.png" alt="p1-img"/>
+                    <img src={p1} alt="p1-img" />
                 </div>
 
                 <div className="p1-text">
@@ -25,7 +29,7 @@ function Row2() {
 
             <div className="p2">
                 <div className="p2-img" data-aos="fade-zoom-in">
-                    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=480,fit=crop/AE0EGKj7XnIX7DqL/mockup_3-YbN5DP0oORc6bR3x.png" alt="p2-img" />
+                    <img src={p2} alt="p2-img" />
                 </div>
 
                 <div className="p2-text">
@@ -38,7 +42,7 @@ function Row2() {
 
             <div className="p3">
                 <div className="p3-img">
-                    <img src="https://assets.zyrosite.com/AE0EGKj7XnIX7DqL/mockup_4-AQE98M88kgFWl5ey.png" alt="p3-img"/>
+                    <img src={p3} alt="p3-img" />
                 </div>
 
                 <div className="p3-text">

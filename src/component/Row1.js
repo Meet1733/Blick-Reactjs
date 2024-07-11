@@ -2,12 +2,13 @@ import React, { useEffect } from "react";
 import "./css/Row1.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import phoneImg from "../assets/phone.avif"
 
 function Row1() {
 
     useEffect(() => {
-        Aos.init({duration: 2000})
-      }, [])
+        Aos.init({ duration: 2000 })
+    }, [])
 
     return (
         <div className="row1">
@@ -16,9 +17,9 @@ function Row1() {
                 <h1 className="row-below">finances</h1>
                 <p className="row-small">The easy way to stay on top of your finances, no matter where you are.</p>
                 <button data-aos="fade-zoom-in">Get Started</button>
-            </div>     
+            </div>
             <div className="row-right" data-aos="fade-zoom-in">
-                <img className="phone" src="https://assets.zyrosite.com/YyvylKbrrJt35wVE/mockup_1-AzGzyBl0Grt0gagr.png" alt="phone-img"/>
+                <img className="phone" src={phoneImg} alt="phone-img" />
             </div>
         </div>
     )
